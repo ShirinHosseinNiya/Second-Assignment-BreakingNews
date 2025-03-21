@@ -1,62 +1,55 @@
-# Project Title
+# Breaking News
 
-Simple overview of use/purpose.
+A simple Java program that fetches and displays news using the News API.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This project is a Java application that receives the latest news articles from the News API. The program allows users to browse the list of headlines and select an article to view its details. It utilizes HTTP requests to fetch news data in JSON format and parses it for display.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Java 11 or later
+* Internet connection (to fetch news data)
+* JSON processing library (org.json)
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Clone the repository.
+* Make sure you have Java installed.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+1. Compile the Java files:
+```java AP/*.java```
+2. Run the program:
+```java AP.main```
+3. THe program will show a list of news titles.
+4. Enter the number of the article you want to read more about.
+5. Press ```y``` to choose another news or ```n``` to exit.
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Recomended solutions to potential issues:
+* Check your internet conetion.
+* Check for Java version compatibility.
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Developer: Shirin HosseinNiya
+Contact: @shurbea (t.me/shurbea) & shirinhosseinniya@gmail.com
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the SBU CS Company Private Limited License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* News API (https://newsapi.org)
+* JSON.org for JSON parsing
